@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "org.conman.parsers.url.tel"
-version = "1.0.0-1"
+version = "1.0.0-2"
 
 -- LuaDist source
 source = {
-  tag = "1.0.0-1",
+  tag = "1.0.0-2",
   url = "git://github.com/LuaDist-testing/org.conman.parsers.url.tel.git"
 }
 -- Original source
@@ -19,7 +19,7 @@ description =
   homepage = "https://github.com/spc476/LPeg-Parsers",
   maintainer = "Sean Conner <sean@conman.org>",
   license = "LGPL",
-  summary = [[Parse "gopher:" URLs]],
+  summary = [[Parse "tel:" URLs]],
   detailed = [[
 	Parse "tel:" URIs into a Lua table.  This can only handle "tel:"
 	URIs.  If you need to parse more than just "tel:" URIs, then you can
